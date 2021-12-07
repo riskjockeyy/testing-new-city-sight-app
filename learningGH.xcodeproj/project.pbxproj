@@ -11,6 +11,7 @@
 		4F96E08A275EED1100FAEB9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96E089275EED1100FAEB9B /* ContentView.swift */; };
 		4F96E08C275EED1200FAEB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F96E08B275EED1200FAEB9B /* Assets.xcassets */; };
 		4F96E08F275EED1200FAEB9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F96E08E275EED1200FAEB9B /* Preview Assets.xcassets */; };
+		4F96E097275EF81A00FAEB9B /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96E096275EF81A00FAEB9B /* new.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4F96E089275EED1100FAEB9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F96E08B275EED1200FAEB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F96E08E275EED1200FAEB9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F96E096275EF81A00FAEB9B /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4F96E087275EED1100FAEB9B /* learningGHApp.swift */,
 				4F96E089275EED1100FAEB9B /* ContentView.swift */,
+				4F96E095275EF81200FAEB9B /* New Group */,
 				4F96E08B275EED1200FAEB9B /* Assets.xcassets */,
 				4F96E08D275EED1200FAEB9B /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				4F96E08E275EED1200FAEB9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F96E095275EF81200FAEB9B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4F96E096275EF81A00FAEB9B /* new.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F96E097275EF81A00FAEB9B /* new.swift in Sources */,
 				4F96E08A275EED1100FAEB9B /* ContentView.swift in Sources */,
 				4F96E088275EED1100FAEB9B /* learningGHApp.swift in Sources */,
 			);
